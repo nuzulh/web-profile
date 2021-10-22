@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 8vh;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(10, 10, 10);
+    z-index: 99;
+    transition: all 1s;
+}
+header h2 {
+    margin-left: 10%;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: orangered;
+    opacity: 0.7;
+}
+header ul {
+    display: flex;
+    width: 35%;
+    margin-right: 10%;
+    justify-content: space-between;
+    list-style: none;
+}
+header a {
+    color: whitesmoke;
+    opacity: 0.7;
+    letter-spacing: 2px;
+    transition: all .3s;
+}
+header a:hover {
+    opacity: 1;
+}
+.active {
+    color: orangered;
+}
+
+#main {
+    display: flex;
+    height: 100vh;
+    background-color: rgb(10, 10, 10);
+}
+.intro {
+    width: 50%;
+    color: whitesmoke;
+    opacity: 0.7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.intro h3 {
+    font-weight: normal;
+    font-family: monospace;
+    font-size: 2rem;
+    opacity: 0.7;
+}
+.intro h1 {
+    color: orangered;
+    font-size: 4rem;
+    letter-spacing: 5px;
+    font-family: monospace;
+    font-weight: normal;
+    padding-bottom: 1vh;
+    opacity: 0.7;
+}
+.intro p {
+    border-top: 1px solid orangered;
+    padding-top: 2vh;
+    font-size: 1.5rem;
+    font-family: monospace;
+    opacity: 0.7;
+}
+.intro a {
+    margin-top: 2vh;
+    font-size: 1rem;
+    color: whitesmoke;
+    opacity: 0.7;
+    font-family: monospace;
+    transition: all 0.3s;
+}
+.intro a:hover {
+    opacity: 1;
+}
+.intro .download-cv {
+    border: 2px solid orangered;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    color: orangered;
+    transition: all 0.3s;
+}
+.download-cv:hover {
+    color: rgb(10, 10, 10);
+    font-weight: 600;
+    background-color: whitesmoke;
+}
+.intro .social {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 2vh;
+    justify-content: center;
+}
+.intro .social a {
+    font-size: 3rem;
+    margin-right: 2rem;
+}
+.profile-img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.profile-img img {
+    height: 100vh;
+}
+
+#projects {
+    height: 100vh;
+    background-color: rgb(15, 15, 15);
+}
+
+#certificates {
+    height: 100vh;
+    background-color: rgb(20, 20, 20);
+}
+
+#experiences {
+    height: 100vh;
+    background-color: rgb(25, 25, 25);
+}
+
+#about {
+    height: 95vh;
+    background-color: rgb(30, 30, 30);
+}
+
+footer {
+    height: 5vh;
+    background-color: rgb(25, 25, 25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+footer p {
+    opacity: 0.5;
+    font-weight: normal;
+    font-family: monospace;
+    font-size: 1rem;
+}
